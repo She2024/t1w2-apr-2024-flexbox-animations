@@ -1,11 +1,12 @@
 *{
-    --blue-light:#AEC5EB;
-    --orange: #FF715B;
+    --light-olive:#c1bb9a;
+    --light-teal: #acccc7;
+    --purple: #774e7f;
     color:black
 }
 
 body{
-    background-color: var(--blue-light);
+    background-color: var(--light-olive);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     flex-direction: column;
@@ -16,19 +17,21 @@ body{
 
 }
 .logo{
+    justify-content: center;
     height: 150px;
     width: 150px;
-    background-color: var(--orange);
-    display: flex;
-    justify-content: center;
+    background-color: var(--purple);
+    display: flex;    
+    text-align: center;
+    align-items: center;
     border: solid black 5px;
     border-radius: 50%;
 }
 .logo p {
     height: 90px;
     width: 90px;
-    background-color: black;
-    color: var(--orange);
+    background-color: var(--light-teal);
+    color: var(--purple);
     text-align: center;
     font-size: 1.5rem;
     border-radius: 20%;
@@ -36,22 +39,20 @@ body{
 }
 nav a {
     text-decoration: none;
-    background-color: black;
-    color: var(--blue-light);
+    background-color: var(--light-teal);
+    color: var(--purple);
     padding: 0.5rem;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
 }
 
 nav a:hover {
-    background-color: var(--orange);
+    background-color: var(--purple);
     color: black;
+    display: inline-block;
     animation-name: spin;
-    animation-duration: 3sec;
-    /* The animation code */
-@keyframes spin {
-   animation: spin 3sec timing-function delay iteration-count direction fill-mode;
-  }
+    animation-duration: 1sec;
+    
 }
 
 .training-option {
@@ -84,7 +85,7 @@ nav a:hover {
         }
     .training-option {
         margin-top: 15dvw;
-        background-color: var(--orange);
+        background-color: var(--purple);
         padding: 1rem;
         border-radius: 5%;
 }
