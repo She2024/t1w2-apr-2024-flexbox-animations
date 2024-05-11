@@ -27,10 +27,10 @@
             <h3>Pilates</h3>
         </section>
         <section class="training-option">
-            <img src="./images/strength.jpg" alt="Person exersicing strength">
+            <img src="./images/strenght.jpg" alt="Person exersicing pilates">
             <h3>Pilates</h3>
         </section><section class="training-option">
-            <img src="./images/yoga.jpg" alt="Person exersicing yoga">
+            <img src="./images/pilates.jpg" alt="Person exersicing pilates">
             <h3>Pilates</h3>
         </section>
     </main>

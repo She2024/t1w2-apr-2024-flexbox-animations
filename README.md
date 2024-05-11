@@ -8,3 +8,11 @@
     -Flexbox
     -Animations
     -pseudoclasses
+
+
+ ## Wireframes
+    ![Wireframe of indexpage Desktop version](./)
+
+  ## Trello progress 
+  ![Trello progress snapshot](./images/Trello_11_may_2024)
+  
