@@ -1,0 +1,15 @@
+*{
+    --blue-light:#AEC5EB;
+    color:black
+}
+
+body{
+    background-color: var(--blue-light);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* Text align is horizontal */
+    text-align: center;
+    /* align items vertical */
+    align-items: center;
+}
